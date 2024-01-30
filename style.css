@@ -42,6 +42,7 @@
       list-style: none;
       color: #717171;
       font-weight: 300;
+      user-select: none;
     }
   
     .dropdown-left{display: none;}
