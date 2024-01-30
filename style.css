@@ -42,7 +42,6 @@
       list-style: none;
       color: #717171;
       font-weight: 300;
-      user-select: none;
     }
   
     .dropdown-left{display: none;}
@@ -174,13 +173,13 @@
       display: flex;
       font-size: 1.3vh;   
       width: 130%;     
+
     }
     .lista-produtos{
       margin-bottom: 41vh;
       overflow-x: hidden;
       width: 95%;
       line-height: normal;
-      user-select: none;
     }
       .lista-produtos li{margin-right: 1.3vh; }
 
@@ -735,10 +734,11 @@ header{
       display: block;           
     }
     .lista-produtos{
-      width: 70%;
-      line-height: 5vh;   
+      width:100%;
+      line-height: 2.5vh;   
       position: relative;
-      margin-bottom: 0;
+      display: flex;    
+      justify-content: space-around;
     }
     #align-prod{
       margin: auto;
@@ -755,19 +755,17 @@ header{
           background-color: transparent;
         }
     
-        .dropdown-left{            
-          position: absolute;
+        .dropdown-left{  
+          position: absolute;          
           z-index: 2;
-    
-          width:  30vh; 
-          margin: -4vh 0 0 43vh;
+          margin: 0 0 0 -3vh;
+          width: 28vh; 
           padding: 1vh 2.5vh;
           border: 1px solid #F6F6F6;
           background: #FAFAFA;
-          box-shadow: 0px -5px 25px 0px rgba(31, 30, 30, 0.17);
+          box-shadow: 0px 5px 25px 0px rgba(31, 30, 30, 0.17);
         }
         .dropdown-left li{
-          margin: 1vh 0 1vh 0;
           line-height: normal;
           width: 100%;
           padding: 2vh 0; 
@@ -782,19 +780,19 @@ header{
           padding: 3vh 2.5vh;
           box-shadow: 20px 0px 25px 0px rgba(0, 0, 0, 0.17);
           width:  30vh; 
-          margin: -6.8vh 0 0 30vh;
+          margin: -5.9vh 0 0 28vh;
         } 
     
     
         .dropdown-right{
           position: absolute;
           z-index: 2;
-          width:  30vh; 
-          margin: -4vh 0 0 -20vh;
+          width:  28vh; 
+          margin: 0vh 0 0 -7vh;
           padding: 1vh 2.5vh;
           border: 1px solid #F6F6F6;
           background: #FAFAFA;
-          box-shadow: 0px -5px 25px 0px rgba(31, 30, 30, 0.17);   
+          box-shadow: 0px 5px 25px 0px rgba(31, 30, 30, 0.17);   
       }
       .dropdown-right li{
         margin: 1vh 0 1vh 0;
@@ -811,8 +809,8 @@ header{
           padding:3vh 2.5vh;
           box-shadow: -20px 0px 25px 0px rgba(0, 0, 0, 0.17);
           width:  30vh; 
-          margin: -6.8vh 0 0 -33vh;
-        }    
+          margin: -6.8vh 0 0 -35vh;
+        }  
     h6{
       font-size: 1.8vh;
       margin: 2vh 0;
@@ -902,19 +900,20 @@ header{
         
     .produtos{
         flex-direction: column;
-        margin: 8vh 0 0 5vh; 
+        margin: 8vh 0 0 0vh; 
         align-self: normal;
       }          
 
     ul{
       font-size: 2.25vh;
-      display: block;           
+      user-select: none;       
     }
     .lista-produtos{
-      width: 70%;
-      line-height: 5vh;   
+      width:100%;
+      line-height: 2.5vh;   
       position: relative;
-      margin-bottom: 0;
+      display: flex;    
+      justify-content: space-around;
     }
     #align-prod{
       margin: auto;
@@ -927,23 +926,21 @@ header{
           transition: .3s;
           cursor: pointer;   
           display: block;        
-          padding: 2vh 0;
+
           background-color: transparent;
         }
     
-    .dropdown-left{            
-      position: absolute;
+    .dropdown-left{  
+      position: absolute;          
       z-index: 2;
-
-      width:  30vh; 
-      margin: -4vh 0 0 43vh;
+      margin: 0 0 0 -3vh;
+      width: 28vh; 
       padding: 1vh 2.5vh;
       border: 1px solid #F6F6F6;
       background: #FAFAFA;
-      box-shadow: 0px -5px 25px 0px rgba(31, 30, 30, 0.17);
+      box-shadow: 0px 5px 25px 0px rgba(31, 30, 30, 0.17);
     }
     .dropdown-left li{
-      margin: 1vh 0 1vh 0;
       line-height: normal;
       width: 100%;
       padding: 2vh 0; 
@@ -958,19 +955,19 @@ header{
       padding: 3vh 2.5vh;
       box-shadow: 20px 0px 25px 0px rgba(0, 0, 0, 0.17);
       width:  30vh; 
-      margin: -6.8vh 0 0 29vh;
+      margin: -5.9vh 0 0 28vh;
     } 
 
 
     .dropdown-right{
       position: absolute;
       z-index: 2;
-      width:  30vh; 
-      margin: -4vh 0 0 -20vh;
+      width:  28vh; 
+      margin: 0vh 0 0 -7vh;
       padding: 1vh 2.5vh;
       border: 1px solid #F6F6F6;
       background: #FAFAFA;
-      box-shadow: 0px -5px 25px 0px rgba(31, 30, 30, 0.17);   
+      box-shadow: 0px 5px 25px 0px rgba(31, 30, 30, 0.17);   
   }
   .dropdown-right li{
     margin: 1vh 0 1vh 0;
@@ -987,7 +984,7 @@ header{
       padding:3vh 2.5vh;
       box-shadow: -20px 0px 25px 0px rgba(0, 0, 0, 0.17);
       width:  30vh; 
-      margin: -6.8vh 0 0 -33vh;
+      margin: -6.8vh 0 0 -35vh;
     }    
     .cell{display: none;}
 
