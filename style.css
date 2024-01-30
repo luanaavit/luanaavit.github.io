@@ -179,6 +179,7 @@
       overflow-x: hidden;
       width: 95%;
       line-height: normal;
+      user-select: none;
     }
       .lista-produtos li{margin-right: 1.3vh; }
 
