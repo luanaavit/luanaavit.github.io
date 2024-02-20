@@ -65,6 +65,10 @@
         font-weight: 700;
         color: #FF7400;
       }
+        h3 span{
+          color: #717171;
+          font-weight: 400;
+        }
 
       footer{
         background-color: #FF7400;
@@ -312,7 +316,7 @@
       
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+@media screen and (min-width: 768px) and (max-width: 1200px) and (orientation: portrait) {
   .camisa{display: none;}
   .caneca{display: none;}
 
@@ -330,7 +334,7 @@
     align-self: flex-start;
   }
 
-  .container{display: flex; overflow-x: hidden;}
+  .container{display: flex; overflow-x: hidden; width: 100%;}
 
   .caneca-celular{
       width: 45%;
@@ -381,8 +385,8 @@
       width: 100%;
       line-height: normal;
     }
-      .lista-produtos li{margin-right:0 vh; }
-      #align-prod{margin: 0vh 0 35.5vh 0;} 
+
+      
 
       .lista-produtos li:hover{
         background-color: #ff841f;
@@ -699,7 +703,7 @@
                 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px) and (orientation: landscape)  {
   #celular{display: none;}
   .caneca-celular{display: none;}
 
@@ -868,7 +872,7 @@ header{
       .redes-sociais img{height: 11vh;}
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (orientation: landscape)  {
   #celular{display: none;}
   .caneca-celular{display: none;}
 
